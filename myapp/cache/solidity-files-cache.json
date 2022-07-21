@@ -74,8 +74,8 @@
       ]
     },
     "/Users/brendanmah/Documents/GitHub/leoluca-nft/myapp/contracts/MyNFT.sol": {
-      "lastModificationDate": 1657699413734,
-      "contentHash": "d809137601b8f4fd0a1d2c436a2625b9",
+      "lastModificationDate": 1658369564194,
+      "contentHash": "45b4f04f4c0eea0d189ef5d24d4f1906",
       "sourceName": "contracts/MyNFT.sol",
       "solcConfig": {
         "version": "0.8.9",

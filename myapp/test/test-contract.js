@@ -16,11 +16,11 @@ describe("MyNFT", function() {
         const newlyMintedToken = await mynft.payToMint(recipient, metadataURI, { value: ethers.utils.parseEther('0.06')});
 
         // Wait for transaction to be mined
-        await newlyMintedToken.await();
+        await newlyMintedToken.wait();
 
         balance = await mynft.balanceOf(recipient);
         expect(balance).to.equal(1);
 
-        expect(await mynft.isContentOwned(metadataURI).to.equal(true));
+        expect(await mynft.isContentOwned(metadataURI)).to.equal(true);
     });
 });

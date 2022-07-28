@@ -14,7 +14,7 @@ function WalletBalance() {
     return (
         <div className = "card">
             <div>
-                <h5>Wallet Balance: {balance}</h5>
+                <h5>Available ETH: {balance}</h5>
                 <button onClick={() => getBalance()} id='balance'>Check Balance</button>
             </div>
         </div>

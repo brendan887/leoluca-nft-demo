@@ -42,7 +42,7 @@ contract MyNFT is ERC721, Ownable {
 
     function mint(uint256 quantity_) public payable {
         require(isPublicMintEnabled, 'minting not enabled');
-        require(msg.value == quantitiy_ * mintPrice, 'wrong mint value');
+        require(msg.value == quantity_ * mintPrice, 'wrong mint value');
         require(currentSupply + quantity_ <= maxSupply, 'sold out');
         require(walletMints[msg.sender] + quantity_ <= maxPerWallet, 'exceed max per wallet');
 

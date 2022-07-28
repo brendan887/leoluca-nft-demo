@@ -74,8 +74,8 @@
       ]
     },
     "/Users/brendanmah/Documents/GitHub/leoluca-nft/myapp/contracts/MyNFT.sol": {
-      "lastModificationDate": 1658369564194,
-      "contentHash": "45b4f04f4c0eea0d189ef5d24d4f1906",
+      "lastModificationDate": 1659030629601,
+      "contentHash": "dae8328546ece2bccc41f744fbf4609c",
       "sourceName": "contracts/MyNFT.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -103,6 +103,7 @@
       "imports": [
         "@openzeppelin/contracts/token/ERC721/ERC721.sol",
         "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+        "@openzeppelin/contracts/security/Pausable.sol",
         "@openzeppelin/contracts/access/Ownable.sol",
         "@openzeppelin/contracts/utils/Counters.sol"
       ],
@@ -549,6 +550,43 @@
       ],
       "artifacts": [
         "IERC165"
+      ]
+    },
+    "/Users/brendanmah/Documents/GitHub/leoluca-nft/myapp/node_modules/@openzeppelin/contracts/security/Pausable.sol": {
+      "lastModificationDate": 1657554175197,
+      "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
+      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pausable"
       ]
     }
   }

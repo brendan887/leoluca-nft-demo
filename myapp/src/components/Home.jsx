@@ -5,6 +5,7 @@ import { ethers } from 'ethers';
 import MyNFT from '../artifacts/contracts/MyNFT.sol/MyNFT.json';
 
 import placeholderImage from '../img/placeholder.jpg';
+import { mintNFT } from '../utils/mintNFT.js';
 
 const contractAddress = '0x793AED93cfca4F39bC06f638ACd2e099500145D1';
 

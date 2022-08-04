@@ -4,7 +4,7 @@ import Explore from './pages/explore';
 
 function App() {
     if (window.ethereum) {
-        return <Explore />
+        return <Home />
     } else {
         return <Install />
     }

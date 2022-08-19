@@ -11,16 +11,16 @@ Remember to `cd myapp` to access files properly.
 
 ## Deploying Smart Contract
 
-> 1. `npx hardhat compile`
-> 2. `npx hardhat node`
-> 3. `npx hardhat run scripts/deploy-contract.js --network NAME`
+1. `npx hardhat compile`
+2. `npx hardhat node`
+3. `npx hardhat run scripts/deploy-contract.js --network NAME`
 
 `NAME` can be `localhost`, `goerli`, or any network configured in `hardhat.config.js`. Create a `.env` to include all the necessary variables.
 
 
 ## Running Demo Website
 
-> 1. `npm run dev`
+1. `npm run dev`
 
 Metamask wallet is required to interact with any smart contract functions such as minting. 
 
